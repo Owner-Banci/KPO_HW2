@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp"
+              tools:context=".ThankYouPagesActivity">
+
+    <!-- Заголовок -->
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ваш заказ:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+    <!-- Кнопки -->
+
+
+    <!-- Кнопка оплаты -->
+
+    <ListView
+            android:id="@+id/TYPItemList"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="10dp"/>
+    <TextView
+            android:id="@+id/TYP_link_to_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:text="Хочешь ещё что-нибудь заказать? Нажимай сюда!"
+            android:layout_marginBottom="3dp"/>
+
+    <!-- Кнопка оплаты -->
+
+
+    <!-- Кнопка отмены заказа -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+                android:id="@+id/payButton"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:backgroundTint="#ED0404"
+                android:textSize="10sp"
+                android:text="Оплатить!"/>
+
+        <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="2dp"
+                android:backgroundTint="#ED0404"
+                android:textSize="10sp"
+                android:text="Отменить заказ("/>
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/updateButton"
+            android:layout_width="220dp"
+            android:layout_height="1dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:backgroundTint="#878888"
+            android:text="Обновить"/>
+
+    <!--    <Button-->
+<!--            android:id="@+id/TYPpayButton"-->
+<!--            android:layout_width="350dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:textSize="30sp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:backgroundTint="#ED0404"-->
+<!--            android:text="Оставить отзыв"/>-->
+
+    <!-- Кнопка отмены заказа -->
+<!--    <Button-->
+<!--            android:id="@+id/cancelButton"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:backgroundTint="#878888"-->
+<!--            android:textSize="10sp"-->
+<!--            android:text="Отменить заказ("/>-->
+
+
+</LinearLayout>

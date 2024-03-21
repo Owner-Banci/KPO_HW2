@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingBottom="20dp"
+              android:background="#BD1111"
+              android:id="@+id/items_in_list_admin"
+              android:orientation="vertical">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/logo"
+            android:id="@+id/item_list_image_admin"
+            android:scaleType="centerCrop"/>
+    <TextView
+            android:text="Название"
+            android:paddingVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_marginStart="5dp"
+            android:id="@+id/item_list_name_admin"/>
+    <TextView
+            android:text="Время приготовления:"
+            android:paddingVertical="10dp"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_list_time_admin"/>
+    <TextView
+            android:text="Количество"
+            android:paddingVertical="10dp"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_list_count_admin"/>
+    <TextView
+            android:text="Цена"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingVertical="3dp"
+            android:paddingHorizontal="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="end"
+            android:id="@+id/item_list_price_admin"/>
+
+    <Button
+            android:text="Удалить"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:backgroundTint="#D5A10F"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_list_admin_button"/>
+
+
+</LinearLayout>

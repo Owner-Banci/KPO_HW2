@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#F4F4F4"
+
+        tools:context=".AdminActivity">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#201E28"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="Статистика"
+
+            android:fontFamily="@font/archivo_bold"/>
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginHorizontal="18dp"
+                  android:layout_marginVertical="10dp"
+                  android:background="#BD1111"
+                  android:id="@+id/items_in_list_order"
+                  android:orientation="vertical">
+
+        <TextView
+                android:text="Самое популярное блюдо"
+                android:paddingVertical="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:layout_marginStart="5dp"
+                android:id="@+id/most_popular_food_name"/>
+        <TextView
+                android:text="Время приготовления:"
+                android:paddingVertical="10dp"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/most_popular_food_name1"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginHorizontal="18dp"
+                  android:layout_marginVertical="10dp"
+                  android:background="#BD1111"
+                  android:id="@+id/avarage_food_rating"
+                  android:orientation="vertical">
+
+
+        <TextView
+                android:text="Cредняя оценка блюд"
+                android:paddingVertical="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:layout_marginStart="5dp"
+                android:id="@+id/avarage_food_rating1"/>
+        <TextView
+                android:text="Время приготовления:"
+                android:paddingVertical="10dp"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/avarage_food_rating2"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:layout_marginHorizontal="18dp"
+            android:layout_marginVertical="10dp"
+            android:background="#BD1111"
+            android:id="@+id/items_in_list_order1"
+            android:orientation="vertical">
+
+        <TextView
+                android:text="Блюдо с самой высокой оценкой"
+                android:paddingVertical="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:layout_marginStart="5dp"
+                android:id="@+id/highest_rated_food"/>
+        <TextView
+                android:text="Время приготовления:"
+                android:paddingVertical="5dp"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/highest_rated_food1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:layout_marginVertical="10dp"
+            android:background="#BD1111"
+            android:id="@+id/items_in_list_order2"
+            android:orientation="vertical">
+
+        <TextView
+                android:text="Блюдо с самой низкой оценкой"
+                android:paddingVertical="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:layout_marginStart="5dp"
+                android:id="@+id/lowhigh_food_rating"/>
+        <TextView
+                android:text="Время приготовления:"
+                android:paddingVertical="10dp"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lowhigh_food_rating1"/>
+
+    </LinearLayout>
+
+
+
+    <Button
+            android:text="Закрыть"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:backgroundTint="#D5A10F"
+            android:layout_height="48dp"
+            android:id="@+id/end_view"/>
+
+
+
+
+</LinearLayout>
